@@ -2,6 +2,7 @@
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./img/logo-idea-150.png" alt="Markdownify" width="150"></a>
   <br>
+  <br>
   - Counter +
   <br>
 </h1>
