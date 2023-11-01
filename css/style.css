@@ -1,0 +1,73 @@
+body{
+    background-color: #6d72fe;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+section{
+    text-align: center;
+}
+
+#myRow{
+    width: 100%;
+}
+
+#myCol{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #8a8eff;
+    width: 450px;
+    height: 200px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    border-radius: 110px 110px 110px 110px ;
+}
+
+#colTasto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 200px; 
+}
+
+#colCerchio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+button{
+    font-size: larger;
+    color: #A0A3FF;
+    background: transparent;
+    border-color: transparent;
+    font-size: 80px;
+}
+
+button:hover{
+    color: aliceblue;
+}
+
+#counter{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: 80px;
+    color: #6d72fe;
+}
+
+
+
+
+
