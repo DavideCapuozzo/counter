@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 
-.col-12{
+.col{
     text-align: center;
     
 }
@@ -107,7 +107,37 @@ button:hover{
 
 
 
+@media only screen and (max-width: 414px) and (-webkit-device-pixel-ratio: 3){
 
+    .row{
+        height: 130px;
+    }
+
+    #counter{
+        height: 130px;
+        width: 130px;
+    }
+
+    .box{
+        width: 350px;
+        height: 130px;
+    }
+
+    #colCerchio{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #colTasto{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .tastoPiu{
+        padding-left: 2px!important;
+        padding-right: 0px!important;
+    }
+} 
 
 
 
