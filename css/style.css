@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #6d72fe;
     font-family: 'Pixelify Sans', sans-serif;
 }
@@ -138,7 +138,15 @@ button:hover{
         padding-right: 0px!important;
     }
 } 
+ */
 
+
+#box{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    background-color: blueviolet;
+}
 
 
 
