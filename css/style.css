@@ -1,152 +1,71 @@
-/* body{
+
+body{
     background-color: #6d72fe;
     font-family: 'Pixelify Sans', sans-serif;
 }
 
-.container-fluid{
-    height: 100vh;
+
+#box{
+    height: 100px;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.col{
-    text-align: center;
-    
-}
-
-.box{
+    justify-content: center; 
     background-color: #8a8eff;
-    width: 450px;
-    height: 200px;
     border-radius: 110px 110px 110px 110px;
 }
 
-#colTasto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    height: 200px; 
+.tastoPiu{
+    text-align: end;
 }
 
 #colCerchio{
+    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center; 
-    align-items: center;
 }
 
 button{
-    font-size: larger;
+    font-size: 280%;
     color: #A0A3FF;
     background: transparent;
     border-color: transparent;
-    font-size: 80px;
+    font-weight: bold;
 }
 
 button:hover{
     color: aliceblue;
 }
 
+
 #counter{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    font-size: 80px;
+    font-size: 350%;
     color: #6d72fe;
 }
 
-
-@media only screen and (max-width: 790px) {
-    .row>* {
-        width: auto!important;
-        
-    }
-
-    #myRowDue{
-        justify-content: center;
-    }
-}   
-
-@media only screen and (max-width: 414px) {
-
-    .row{
-        height: 130px;
-    }
-
-    #counter{
-        height: 130px;
-        width: 130px;
-    }
-
-    .box{
-        width: 350px;
-        height: 130px;
-    }
-
-    #colCerchio{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    #colTasto{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .tastoPiu{
-        padding-left: 2px!important;
-        padding-right: 0px!important;
-    }
-} 
-
-
-
-@media only screen and (max-width: 414px) and (-webkit-device-pixel-ratio: 3){
-
-    .row{
-        height: 130px;
-    }
-
-    #counter{
-        height: 130px;
-        width: 130px;
-    }
-
-    .box{
-        width: 350px;
-        height: 130px;
-    }
-
-    #colCerchio{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    #colTasto{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .tastoPiu{
-        padding-left: 2px!important;
-        padding-right: 0px!important;
-    }
-} 
- */
-
-
-#box{
-    height: 100px;
-    width: 300px;
-    margin-top: 100px;
-    background-color: blueviolet;
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
 }
+
+#colTasto{
+    display: flex;
+    justify-content: center; 
+}
+
+#colBox{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 
 
 
