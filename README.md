@@ -9,7 +9,7 @@
 
 <h4 align="center">A minimal Counter whit button <a href="https://counterdev999.netlify.app/" target="_blank">Try it</a></h4>
 
-<a href="https://counterdev999.netlify.app/"><img src="./img/Screenshot 2023-11-01 135416.png" alt="Markdownify" width="100%"></a>
+<a href="https://counterdev999.netlify.app/"><img src="./img/Screenshot-2023-11-01-135416.png" alt="Markdownify" width="100%"></a>
 
 <br>
 
