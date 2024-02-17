@@ -4,30 +4,31 @@ body{
     font-family: 'Pixelify Sans', sans-serif;
 }
 
-.row>* {
-    padding-right: 0px!important;
-    padding-left: 0px!important;
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
-
-#box{
+.containerCounter{
     height: 100px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     background-color: #8a8eff;
-    border-radius: 110px 110px 110px 110px;
+    border-radius: 110px 110px 110px 110px;  
 }
 
-.tastoPiu{
-    text-align: end;
-}
-
-#colCerchio{
-    text-align: center;
+.counter{
     display: flex;
-    justify-content: center; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 button{
@@ -42,36 +43,17 @@ button:hover{
     color: aliceblue;
 }
 
-
-#counter{
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
     font-size: 350%;
     color: #6d72fe;
 }
-
-p {
-    margin-top: 0;
-    margin-bottom: 0rem;
-}
-
-#colTasto{
-    display: flex;
-    justify-content: center; 
-}
-
-#colBox{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-
 
 
 
