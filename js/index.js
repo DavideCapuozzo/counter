@@ -1,36 +1,43 @@
-const createButton = (text, clickHandler) => {
-    const button = document.createElement('button');
-    button.innerHTML = text;
-    button.classList.add('button');
-    button.addEventListener('click', clickHandler);
-    return button;
+const createElement = (tagName, className, innerHTML, clickHandler) => {
+    const element = document.createElement(tagName);
+
+    if (className && className.trim() !== '') {
+        element.classList.add(className.trim());
+    }
+
+    if (innerHTML) {
+        element.innerHTML = innerHTML;
+    }
+
+    if (clickHandler) {
+        element.addEventListener('click', clickHandler);
+    }
+
+    return element;
 };
 
 const container = document.getElementById('container');
 container.classList.add('counter-container');
 
-const containerCounter = document.createElement('div');
-containerCounter.classList.add('containerCounter');
+const containerCounter = createElement('div', 'containerCounter');
 container.appendChild(containerCounter);
 
-const counter = document.createElement('div');
-counter.classList.add('counter');
+const counter = createElement('div', 'counter');
 containerCounter.appendChild(counter);
 
-const number = document.createElement('span');
-number.innerHTML = '0';
-counter.appendChild(createButton('-', subtract));
+const number = createElement('span', '', '0');
+counter.appendChild(createElement('button', 'button', '-', subtract));
 counter.appendChild(number);
-counter.appendChild(createButton('+', add));
+counter.appendChild(createElement('button', 'button', '+', add));
 
 let value = 0;
 
 function add() {
-    value++;
+    value++ ; 
     number.innerHTML = value;
 }
 
 function subtract() {
-    value--;
+    value--; 
     number.innerHTML = value;
 }
